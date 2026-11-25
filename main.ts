@@ -20,5 +20,5 @@ const OUTPUT_DIR = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 
 writeFileSync(
   join(OUTPUT_DIR, 'entry.txt'),
-  "My printer has one job and a PhD in excuses: it prints fine the day I don't need it, then on deadline morning it blinks orange, claims it's out of cyan — CYAN — for a black-and-white document, and says 'check the manual', as if the manual is going to apologise. I have replaced the cartridge, the cable and my patience, and it still sits there humming, a $90 paperweight with a superiority complex.",
+  "My printer has one job and a PhD in excuses: it prints fine the day I don't need it, then on deadline morning it blinks orange, claims it's out of cyan — CYAN — for a black-and-white document, and says 'check the manual', as if the manual owes me an apology. I have replaced the cartridge, the cable and my patience, and it still sits there humming, a $90 paperweight with a superiority complex.",
 );
